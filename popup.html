@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bearier</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bearier ʕ •ᴥ• ʔ</h1>
+    
+    <div class="form-group">
+      <label for="siteInput">Add site to block: ʕ •͡•ʔ</label>
+      <input type="text" id="siteInput" placeholder="e.g. facebook.com">
+      <button id="addSite">Add</button>
+    </div>
+    
+    <div class="list-container">
+      <h2>Blocked Sites: ʕノ•ᴥ•ʔノ ︵</h2>
+      <ul id="blockedSites"></ul>
+    </div>
+
+    <div class="toggle-container">
+      <label for="blockingToggle">Enable bear protection:</label>
+      <label class="switch">
+        <input type="checkbox" id="blockingToggle" checked>
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="footer">
+      <p>ʕ´•ᴥ•`ʔ Feeling bear-y productive? Consider <a href="https://ko-fi.com/bearier" target="_blank">donating</a>.</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
