@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "Bearier Website Blocker",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Block distracting websites with bear-y good protection",
-  "permissions": ["storage", "webNavigation", "webRequest", "declarativeNetRequest"],
+  "permissions": ["storage", "webNavigation", "declarativeNetRequest"],
   "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
